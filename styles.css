@@ -72,6 +72,7 @@ button.sign-up {
 
 .img-holder {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     background-color: #808080;
