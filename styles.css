@@ -75,7 +75,6 @@ button.sign-up {
 }
 
 .img-holder {
-    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +102,6 @@ button.sign-up {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-
 }
 
 .info-card {
@@ -151,11 +149,36 @@ button.sign-up {
 }
 
 .pop-up {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    padding: 40px 140px;
+    border-radius: 10px;
+    gap: 80px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
 
+.pop-up-title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 button.sign-up2 {
-
+    margin-top: 10px;
+    padding: 8px 30px;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 800;
 }
 
 .footer {
